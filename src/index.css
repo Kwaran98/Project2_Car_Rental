@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .button-outline {
+        @apply bg-green-500 text-white px-6 py-2 rounded-md hover:bg-primary;
+    }
+}
