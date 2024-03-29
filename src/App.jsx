@@ -7,8 +7,6 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import SearchBar from "./components/SearchBar/SearchBar";
-import CustomFilter from "./components/CustomFilter/CustomFilter";
 import { getCarData } from "./utils/index";
 import CarCard from "./components/Carcard/Carcard";
 

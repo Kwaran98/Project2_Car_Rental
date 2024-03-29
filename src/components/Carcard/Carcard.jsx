@@ -95,7 +95,10 @@ const Carcard = ({ carDictionary }) => {
   return (
     <div className="pt-12 bg-white dark:bg-dark dark:text-white">
       <div className="container">
-      <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-semibold font-serif mb-3">
+        <h1
+          data-aos="fade-up"
+          className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
+        >
           Types Of Cars You Can Rent
         </h1>
         <p data-aos="fade-up" className="text-sm pb-10">
