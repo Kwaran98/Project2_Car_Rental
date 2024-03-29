@@ -16,7 +16,7 @@ export const NavLinks = [
   },
   {
     id: "2",
-    name: "CARS",
+    name: "CAR",
     link: "../Carcard/Carcard.jsx",
   },
   {
