@@ -39,27 +39,28 @@ const skillsData = [
 const Services = () => {
   return (
     <div className="py-14 dark:bg-black dark:text-white sm:min-h[600px] sm:grid sm:place-items-center">
-      <div className="container"></div>
-      <div className="pb-12">
-        <h1 className="text-3xl font-semibold text-center font-papyrus sm:text-4xl">
-          Why pick us ?
-        </h1>
-      </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-        {skillsData.map((skill) => (
-          <div
-            key={skill.name}
-            data-aos="fade-up"
-            data-aos-delay={skillsData.aosDelay}
-            className="card text-center group space-y-3 sm:space-y-6 p-5 sm:p-5 sm:py-16 bg-dark hover:bg-purple-500 duration-300 text-white hover:text-black rounded-lg"
-          >
-            <div className="grid place-items-center">{skill.icon}</div>
-            <h1 className="text-oswald font-bold text-2xl">{skill.name}</h1>
-            <p className="font-papyrus font-bold text-xl">
-              {skill.description}
-            </p>
-          </div>
-        ))}
+      <div className="container">
+        <div className="pb-12">
+          <h1 className="text-3xl font-semibold text-center font-papyrus sm:text-4xl">
+            Why pick us ?
+          </h1>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          {skillsData.map((skill) => (
+            <div
+              key={skill.name}
+              data-aos="fade-up"
+              data-aos-delay={skillsData.aosDelay}
+              className="card text-center group space-y-3 sm:space-y-6 p-5 sm:p-5 sm:py-16 bg-dark hover:bg-purple-500 duration-300 text-white hover:text-black rounded-lg"
+            >
+              <div className="grid place-items-center">{skill.icon}</div>
+              <h1 className="text-oswald font-bold text-2xl">{skill.name}</h1>
+              <p className="font-papyrus font-bold text-xl">
+                {skill.description}
+              </p>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
